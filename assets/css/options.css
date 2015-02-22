@@ -1,0 +1,159 @@
+.options {
+  position: fixed;
+  top: 20px;
+  right: -200px;
+  width: 200px;
+  padding: 20px;
+  color: #818181;
+  line-height: 16px;
+  background: #f5f5f5;
+  color: #000;
+  z-index: 50;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.options .more {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: #f5f5f5;
+  position: absolute;
+  left: -40px;
+  top: 10px;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.options a {
+  display: block;
+  margin: 20px 0 0 0;
+  color: #000;
+  font-size: 14px;
+}
+.options a img {
+  margin: 0 0 5px 0;
+  display: block;
+}
+.introPage {
+  color: #fff;
+  font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  background-image: url('../img/bg-intro.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.introPage .container {
+  height: 100%;
+}
+.introPage .container .content {
+  padding: 100px 0;
+}
+.introPage .special-element {
+  width: 112px;
+  display: block;
+  line-height: 28px;
+  margin-bottom: -10px;
+  text-align: center;
+}
+.introPage .special-element.center {
+  left: 50%;
+  position: relative;
+  margin-left: -56px;
+}
+.introPage .special-element span {
+  border: 5px solid white;
+  border-radius: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border: 5px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  position: relative;
+}
+.introPage .special-element span:before,
+.introPage .special-element span:after {
+  content: " ";
+  border-top: 2px solid white;
+  display: inline;
+  position: absolute;
+  left: 9px;
+  width: 46px;
+}
+.introPage .special-element span:after {
+  left: auto;
+  right: 9px;
+}
+.introPage .item {
+  margin-bottom: 20px;
+}
+.introPage .item .item-wrap {
+  padding: 3px;
+  background: #fff;
+}
+.introPage h1 {
+  font-size: 125px;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+.introPage h2 {
+  font-size: 36px;
+  font-weight: 200;
+  margin: 10px 0 0;
+  padding: 0;
+}
+.introPage h3 {
+  font-size: 24px;
+  font-weight: 200;
+  margin: 10px 0 30px 0;
+  padding: 0;
+  font-weight: 400;
+}
+.introPage a {
+  color: #333;
+  font-weight: 400;
+}
+.introPage a div {
+  padding: 7px 0 5px 0;
+}
+.introPage a:hover {
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  .introPage h1 {
+    font-size: 60px;
+  }
+  .introPage h2 {
+    font-size: 24px;
+  }
+  .introPage h3 {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1200px) {
+  .introPage .container {
+    width: 970px;
+  }
+}
+@media (max-width: 450px) {
+  .introPage .item {
+    width: 100%;
+  }
+}
